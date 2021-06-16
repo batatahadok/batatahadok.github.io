@@ -1,1 +1,1 @@
-# http://batatahadok.github.io
+# http://lmfanclub.github.io
