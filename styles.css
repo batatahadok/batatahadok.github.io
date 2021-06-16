@@ -1,8 +1,10 @@
     h1
     {
         color: #c6baac;
-        tetext-align: center;
+        text-align: center;
+        font-size: 50px; 
     }
+
     img
     {
         max-width: 150px;
