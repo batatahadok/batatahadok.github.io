@@ -1,37 +1,55 @@
-    h1
-    {
+    #banner{
+        width: 100%;
+    }
+    
+    .principal{
+        margin: 5%;
+    }
+
+    .texto{
         color: #c6baac;
+    }
+
+    h1{
         text-align: center;
         font-size: 50px; 
     }
 
-    img
-    {
-        max-width: 150px;
-        max-height: 150px;
-    }
-    .box
-    {
-        
+    .box{
         display: flex;
     }
 
-    body
-    {
+    body{
         background: #1e1c32;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%;
-    }
-
-    p
-    {
-        color: #c6baac;
         font-size: 30px;
     }
-    .amigos
-    {
+
+    
+    .amigos{
         display: flex;
+          
+    }
+
+    .margin{
+        margin-left: 2%;
+        margin-right: 2%;
+        max-width: 150px;
+        max-height: 150px;
         
+    }
+
+    a{
+        color: #cea16d; 
+        text-decoration: none;
+         
+    }
+
+    h2{
+        text-align: center;
+        font-size: 50px; 
+    }
+
+    .redes{
+        margin-left: 5%;
     }
