@@ -1,13 +1,21 @@
     #banner{
         width: 100%;
     }
-    
-    .principal{
-        margin: 5%;
+
+    body{
+        background: #1e1c32;
+        font-size: 30px;
+        color: #c6baac;
+
     }
 
-    .texto{
-        color: #c6baac;
+    a{
+        color: rgb(202, 100, 16);
+        text-decoration: none;   
+    }
+
+    main{
+        margin: 10px 7%;
     }
 
     h1{
@@ -15,41 +23,33 @@
         font-size: 50px; 
     }
 
-    .box{
-        display: flex;
+    .bruh{
+        display:inline-flex ;
     }
 
-    body{
-        background: #1e1c32;
-        display: block;
-        font-size: 30px;
+    .bruh img, .amigos img{
+        height: 150px;
+        margin: 10px;
     }
 
-    
     .amigos{
-        display: flex;
-          
+        display: inline-flex;   
+        margin: 40px 0;
     }
 
-    .margin{
-        margin-left: 2%;
-        margin-right: 2%;
-        max-width: 150px;
-        max-height: 150px;
-        
+    .amigos img{
+        text-align: top;
+        float: left
     }
 
-    a{
-        color: #cea16d; 
-        text-decoration: none;
-         
-    }
-
-    h2{
+    footer{
+        background: url(gatoLM.jpg);
+        height: 400px;
+        color: black;
         text-align: center;
-        font-size: 50px; 
     }
 
-    .redes{
-        margin-left: 5%;
+    footer p{
+        margin: 50px;
+        color: black;
     }
